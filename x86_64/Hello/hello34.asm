@@ -1,5 +1,5 @@
 section .data
-    hello db 'Hello, World!', 0    ; The string to print, with a null terminator
+    hello db "Hello, World!", 10    ; The string to print, with a new line terminator
 
 section .text
     global _start                  ; The entry point for the program
